@@ -16,13 +16,17 @@
         android:theme="@style/Theme.BaiTapBuoi1">
 
         <activity
-            android:name="com.example.bai4.LoginActivity"
+            android:name="com.example.bai6.NoteActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.bai4.LoginActivity"
+            android:exported="true" />
 
         <activity
             android:name="com.example.bai4.HomeActivity"
