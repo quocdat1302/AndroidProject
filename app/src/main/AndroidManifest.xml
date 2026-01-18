@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -16,13 +17,17 @@
         android:theme="@style/Theme.BaiTapBuoi1">
 
         <activity
-            android:name="com.example.bai8.TabActivity"
+            android:name="com.example.bai9.ContactActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.bai8.TabActivity"
+            android:exported="true" />
 
         <activity
             android:name="com.example.bai7.StudentActivity"
